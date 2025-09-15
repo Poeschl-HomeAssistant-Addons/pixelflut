@@ -72,7 +72,7 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     libvncclient1=0.9.14+dfsg-1 \
     libsdl2-2.0-0=2.26.5+dfsg-1 \
     libpthread-stubs0-dev=0.4-1 \
-    libfreetype6=2.12.1+dfsg-5+deb12u3 \
+    libfreetype6=2.12.1+dfsg-5+deb12u4 \
     libnuma1=2.0.16-1 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
