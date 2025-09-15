@@ -33,7 +33,7 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     libvncserver-dev=0.9.14+dfsg-1 \
     libsdl2-dev=2.26.5+dfsg-1 \
     libpthread-stubs0-dev=0.4-1 \
-    libfreetype6-dev=2.12.1+dfsg-5+deb12u3 \
+    libfreetype6-dev=2.12.1+dfsg-5+deb12u4 \
     libnuma-dev=2.0.16-1
 
 ENV COMMIT_SHA '05a2bbfb4559090727c51673e1fb47d20eac5672'
